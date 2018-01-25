@@ -140,10 +140,13 @@ body {
 }
 .products .price-block {
   padding: 1rem 3rem 4rem;
-  min-height: 56.5rem;
+  min-height: 50rem;
   background: white;
   text-align: center;
   box-shadow: 7px 12px 21px 0px rgba(0, 0, 0, 0.17);
+}
+.products p {
+  font-size: 2.5rem;
 }
 .products h4 {
   margin: 3rem 0rem;
@@ -177,11 +180,19 @@ body {
   body main {
     text-align: center;
   }
+  body main h1 {
+    font-size: 10rem;
+  }
   body .aboutus .second {
     margin-top: 5rem;
   }
-  body .products .container .row .col-lg-2 {
+  body .products .price-block img {
+    max-width: 30rem;
+  }
+}
+@media (max-width: 991px) {
+  .products .row .col-md-4 .price-block {
+    width: 30rem;
     display: inline-block;
-    width: 250px;
   }
 }
