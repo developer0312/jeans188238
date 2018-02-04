@@ -136,6 +136,10 @@ section {
   body main {
     text-align: center;
   }
+  body main .h1 {
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
   body main h1 {
     padding-top: 0rem;
     margin-top: 0rem;
