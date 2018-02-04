@@ -139,6 +139,10 @@ section {
   body .aboutus .second {
     margin-top: 5rem;
   }
+  body .products .main {
+    margin-top: 0rem;
+    padding-top: 0rem;
+  }
   body .products .main h1 {
     margin-top: 0rem;
     padding-top: 0rem;
